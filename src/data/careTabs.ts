@@ -1,0 +1,48 @@
+export const careTabs = [
+  {
+    id: 1,
+    title: "Customized Group Insurance",
+    description: "Competitive rates from the most trusted insurers.",
+    icon: "/images/642d12941ce6a2284512c84f_star icon 50px.png",
+    image: "/images/64df036e8b62810ad6db4720_Loop Screen 1.webp",
+    link: "https://www.loophealth.com/group-health-insurance",
+  },
+  {
+    id: 2,
+    title: "Unlimited Primary Healthcare",
+    description: "Access 24/7, free virtual consults with Medical Experts.",
+    icon: "/images/6487ed1c6d04c3bdf3377eb1_plus icon.png",
+    image: "/images/64df036f3ee10a7ce792f174_Loop Screen 3.webp",
+    link: "https://www.loophealth.com/our-doctors",
+  },
+  {
+    id: 3,
+    title: "Wellness sessions every week!",
+    description: "Yoga, pilates, zumba, nutrition, sleep and much more!",
+    icon: "/images/64cb9bfd5fedd39d5b426398_coffee cup icon.png",
+    image: "/images/64df03cd8abd255d070d7cf1_Loop screen wellness.webp",
+    link: "https://www.loophealth.com/wellness",
+  },
+  {
+    id: 4,
+    title: "Health index for personalized care",
+    description: "In-depth analysis of employees' health data and action plan.",
+    icon: "/images/61f8edad7595d705dcf31026_health-heart-icon.svg",
+    image: "/images/64df036f0382d4a952269133_health index.webp",
+    link: "https://www.loophealth.com/wellness/health-report",
+  },
+  {
+    id: 5,
+    title: "Employee Assistance Program",
+    description: "Focused chronic care programs for diabetes, hypertension, maternity, elder care, and much more.",
+    icon: "/images/642605c7d23f474f9b41d63d_thumbs up icon.png",
+    image: "/images/64df036e3ee10a7ce792f11d_Loop Screen 4.webp",
+  },
+  {
+    id: 6,
+    title: "Mental Health Counselling",
+    description: "Design policy strategies to empower teams, drive productivity, and boost employee happiness.",
+    icon: "/images/61f8edaf80b3ac65f44457e2_mental-health-icon_1.svg",
+    image: "/images/64df036fd38031455e4a5b57_Loop Screen 5.webp",
+  },
+];

@@ -226,3 +226,54 @@
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* Loop Health Webflow Custom Styles */
+.navbar-ha_dropdown-link:hover .navbar-ha_dropdown-menu-icon, .navbar-ha_dropdown-big-list-item:hover .navbar-ha_dropdown-menu-icon{
+	transform: translate(0.9em, 0em) !important;
+}
+
+.footer_component.is-light .footer_link:hover{
+ color: #025f4c;
+}
+
+.w-dropdown-list.w--open {
+  display: block;
+}
+.w-nav-menu.w--open {
+  display: block;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 20px;
+}
+.navbar-ha_nav-button.w--open .navbar-ha_nav-icon-line.is-1 {
+  transform: translateY(4px) rotate(45deg);
+  transition: transform 0.3s ease;
+}
+.navbar-ha_nav-button.w--open .navbar-ha_nav-icon-line.is-2 {
+  transform: translateY(-4px) rotate(-45deg);
+  transition: transform 0.3s ease;
+}
+.navbar-ha_nav-icon-line {
+  transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 991px) {
+  .w-dropdown-list.w--open {
+    position: static !important;
+    background: transparent;
+    box-shadow: none;
+    padding-left: 20px;
+  }
+}
+.w-dropdown-toggle.w--open .navbar-ha_dropdown-toggle-icon {
+  transform: rotate(180deg);
+}
+.navbar-ha_dropdown-toggle-icon {
+  transition: transform 0.3s ease;
+}
+
